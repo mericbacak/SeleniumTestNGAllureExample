@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite" verbose="2" preserve-order="true" >
+    <!--listeners>
+        <listener class-name="Utils.AllureReportListener"/>
+    </listeners-->
+    <test name="Regression Test">
+        <classes>
+            <class name="Tests.TestCase1" />
+        </classes>
+    </test>
+</suite>
